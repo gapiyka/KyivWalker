@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/dir"
+        android:title="Direction"
+        android:icon="@drawable/ic_dir"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/add"
+        android:title="Create Mark"
+        android:icon="@drawable/ic_add"
+        android:orderInCategory="5"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/route"
+        android:title="Routes"
+        android:icon="@drawable/ic_route"
+        android:orderInCategory="10"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/left"
+                android:title="Left Dnipro" />
+            <item android:id="@+id/irpin"
+                android:title="Irpin" />
+            <item android:id="@+id/center"
+                android:title="Center" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/stats"
+        android:title="Stats"
+        android:icon="@drawable/ic_stats"
+        android:orderInCategory="15"
+        app:showAsAction="always" />
+</menu>
